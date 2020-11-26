@@ -1,0 +1,16 @@
+This is a file system built to behave like an Ext2.
+
+1. run installEssentials as root (sudo)
+
+2. execute make file and the simulated shell will launch
+
+Developer Mode:
+    By default it runs in developer mode. To change, go to make file and change the line
+    that executes the program by removing the second parameter  that says "developermode".
+    This will no longer print all the optional information of the changes
+    happening when running the program.
+
+    EX: ./launchshell.elf disk developermode
+
+
+*There is also a .pdf diagram to help visualize the Ext2 filesystem layout*
