@@ -8,7 +8,8 @@ Developer Mode:
     By default it runs in developer mode. To change, go to make file and change the line
     that executes the program by removing the second parameter that says "developermode".
     This will no longer print all the optional information of the changes
-    happening when running the program.
+    happening when running the program. This mode is still unfinished so there may still
+    be some functions that print optional info while not in developer mode.
 
     EX: ./launchshell.elf disk developermode
 
